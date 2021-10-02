@@ -4,7 +4,7 @@ const Application = PIXI.Application;
 
 const app = new Application({
   width: 800,
-  height: 400,
+  height: 600,
   transparent: false,
   antialias: true
 });
@@ -94,9 +94,9 @@ function fadeOutSplashScreen(delta) {
 };
 
 //Main menu
-const buttonDistance = 60;
-const buttonDisplacement = 150;
-const buttonScale = 0.5;
+const buttonDistance = 75;
+const buttonDisplacement = 200;
+const buttonScale = 0.6;
 const textStyle = new PIXI.TextStyle({
   dropShadow: true,
   dropShadowAlpha: 0.2,
@@ -138,7 +138,7 @@ function setUpMenu() {
     .drawRoundedRect(0, 0, 75, 75, 30)
     .endFill();
   starIcon.pivot.set(starIcon.width / 2, starIcon.height / 2);
-  starIcon.position.set(app.screen.width / 2, 75);
+  starIcon.position.set(app.screen.width / 2, 100);
   starIcon.angle = 45;
   menuContainer.addChild(starIcon);
 
