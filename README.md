@@ -1,5 +1,8 @@
 # Shootemup_game
 
+Usage:
+Run the web server (mongoose.exe), then go to the local URL.
+
 Controls:
 - Movement: arrow keys
 - Shooting: spacebar
