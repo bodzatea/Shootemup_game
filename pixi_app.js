@@ -68,7 +68,6 @@ let seconds = 0;
 const fadeOutValue = 0.01;
 
 function checkFlashScreenTime(delta) {
-  console.log('flash');
   seconds += (1 / 60) * delta;
   if (seconds >= 2) {
     app.ticker.remove(checkFlashScreenTime);
@@ -77,7 +76,6 @@ function checkFlashScreenTime(delta) {
 };
 
 function fadeOutSplashScreen(delta) {
-  console.log('fade');
   if (splashScreenContainer.alpha > 0) {
     splashScreenContainer.alpha = Math.max(0, splashScreenContainer.alpha - fadeOutValue * delta);
   }
@@ -165,7 +163,7 @@ function onButtonDownGame() {
 }
 
 function onButtonDownExit() {
-  console.log('You are now somewhere else!!');
+  //console.log('You are now somewhere else!!');
   window.location.href = "https://www.google.com";
 }
 
