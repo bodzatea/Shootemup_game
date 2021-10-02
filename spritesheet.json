@@ -1,0 +1,87 @@
+{"frames": {
+
+"idle_01.png":
+{
+	"frame": {"x":0,"y":0,"w":122,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":158},
+	"sourceSize": {"w":122,"h":158},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"idle_02.png":
+{
+	"frame": {"x":0,"y":158,"w":122,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":158},
+	"sourceSize": {"w":122,"h":158},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"idle_03.png":
+{
+	"frame": {"x":0,"y":316,"w":122,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":158},
+	"sourceSize": {"w":122,"h":158},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"idle_04.png":
+{
+	"frame": {"x":0,"y":474,"w":122,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":158},
+	"sourceSize": {"w":122,"h":158},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"idle_05.png":
+{
+	"frame": {"x":0,"y":632,"w":122,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":158},
+	"sourceSize": {"w":122,"h":158},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"idle_06.png":
+{
+	"frame": {"x":0,"y":790,"w":122,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":158},
+	"sourceSize": {"w":122,"h":158},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"idle_07.png":
+{
+	"frame": {"x":0,"y":948,"w":122,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":158},
+	"sourceSize": {"w":122,"h":158},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"idle_08.png":
+{
+	"frame": {"x":0,"y":1106,"w":122,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":158},
+	"sourceSize": {"w":122,"h":158},
+	"anchor": {"x":0.5,"y":0.5}
+}},
+"animations": {
+	"idle": ["idle_01.png","idle_02.png","idle_03.png","idle_04.png","idle_05.png","idle_06.png","idle_07.png","idle_08.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "spritesheet.png",
+	"format": "RGBA8888",
+	"size": {"w":122,"h":1264},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9d40a07016051b11eb1f72528d096aba:aaac915aeb731c407182232670c19778:729adc6043343cfda41c447ce8f464d6$"
+}
+}
